@@ -48,13 +48,13 @@ function HomeSection() {
       <img
         src="/Gemini_Generated_Image_hrg3txhrg3txhrg3-Photoroom 1.png"
         alt="Farmer Left"
-        className="hidden md:block absolute bottom-16 left-0 h-[65%] object-contain z-20 pointer-events-none"
+        className="hidden md:block absolute md:bottom-8 lg:bottom-16 left-0 md:h-[35%] lg:h-[65%] object-contain md:z-0 lg:z-20 md:opacity-30 lg:opacity-100 pointer-events-none"
       />
 
       <img
         src="/Gemini_Generated_Image_wqfoq4wqfoq4wqfo-Photoroom 1.png"
         alt="Farmer Right"
-        className="hidden md:block absolute bottom-14 right-0 h-[65%] object-contain z-20 pointer-events-none"
+        className="hidden md:block absolute md:bottom-6 lg:bottom-14 right-0 md:h-[35%] lg:h-[65%] object-contain md:z-0 lg:z-20 md:opacity-30 lg:opacity-100 pointer-events-none"
       />
 
     </section>
