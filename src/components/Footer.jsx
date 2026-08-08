@@ -62,7 +62,7 @@ function Footer() {
           <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 text-[#a0c58a]">
 
             {/* Column 1: Logo & Email */}
-            <div className="flex flex-col items-start gap-3">
+            <div className="flex flex-col items-start gap-3 order-last md:order-none">
               <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center mb-1">
                 <img src="/Sophora Round Logo 1.png" alt="Sophora Logo" className="w-full h-full object-contain drop-shadow-md" />
               </div>
