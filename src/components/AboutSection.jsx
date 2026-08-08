@@ -32,9 +32,9 @@ function AboutSection() {
             </button>
 
             {/* 100% Assured Quality Badge */}
-            <div className="absolute top-[110%] left-32 lg:left-[45%] z-30 flex items-center justify-center min-w-[220px] lg:min-w-[260px]">
+            <div className="absolute top-[110%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[45%] z-30 flex items-center justify-center min-w-[180px] md:min-w-[220px] lg:min-w-[260px]">
               <img src="/bgbt.png" alt="Badge Background" className="absolute inset-0 w-full h-full object-contain drop-shadow-md z-0" />
-              <div className="relative z-10 text-white font-bold text-lg lg:text-xl px-10 py-5 whitespace-nowrap">
+              <div className="relative z-10 text-white font-bold text-sm md:text-lg lg:text-xl px-6 py-3 md:px-10 md:py-5 whitespace-nowrap">
                 100% Assured Quality
               </div>
             </div>
@@ -62,14 +62,14 @@ function AboutSection() {
             </div>
 
             {/* Middle Right: Dealers & Text */}
-            <div className="w-full max-w-[340px] flex flex-col items-start">
-              <div className="relative flex items-center justify-center mb-6 w-fit min-w-[200px] -mt-12 -ml-12 lg:-ml-24 z-30">
+            <div className="w-full max-w-[340px] flex flex-col items-center lg:items-start">
+              <div className="relative flex items-center justify-center mb-6 w-fit min-w-[160px] md:min-w-[200px] mt-2 md:-mt-12 ml-0 lg:-ml-24 z-30">
                 <img src="/Rectangle 25.png" alt="Dealers Badge" className="absolute inset-0 w-full h-full object-fill drop-shadow-lg z-0 rounded-xl" />
-                <div className="relative z-10 text-white font-bold px-8 py-5 text-sm text-center">
+                <div className="relative z-10 text-white font-bold px-6 py-3 md:px-8 md:py-5 text-xs md:text-sm text-center">
                   500+ Dealers Across<br />Maharashtra
                 </div>
               </div>
-              <p className="text-gray-900 text-sm font-medium leading-relaxed ml-8 lg:ml-16">
+              <p className="text-gray-900 text-sm font-medium leading-relaxed text-center lg:text-left ml-0 lg:ml-16 px-4 lg:px-0">
                 We are committed to developing advanced crop nutrition and plant care solutions that help farmers achieve healthier crops, improved productivity, and sustainable agricultural growth.
               </p>
             </div>
