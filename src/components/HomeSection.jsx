@@ -34,11 +34,11 @@ function HomeSection() {
           Sophora Agri Industries Pvt. Ltd. delivers innovative crop nutrition, specialty fertilizers, biostimulants, micronutrients, and sustainable agricultural solutions
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center gap-4 sm:space-x-6 z-30 w-full sm:w-auto px-4 sm:px-0">
-          <button className="w-full sm:w-auto bg-gradient-to-b from-[#84c142] to-[#5a8c27] text-white px-[clamp(1.5rem,2.5vw,2.5rem)] py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-white/30">
+        <div className="flex flex-col sm:flex-row items-center gap-4 sm:space-x-6 z-30 w-auto px-4 sm:px-0">
+          <button className="w-[240px] sm:w-auto bg-gradient-to-b from-[#84c142] to-[#5a8c27] text-white px-[clamp(1.5rem,2.5vw,2.5rem)] py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-white/30">
             Explore Products
           </button>
-          <button className="w-full sm:w-auto bg-white text-[#156d49] px-[clamp(1.5rem,2.5vw,2.5rem)] py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-transparent">
+          <button className="w-[240px] sm:w-auto bg-white text-[#156d49] px-[clamp(1.5rem,2.5vw,2.5rem)] py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-transparent">
             Become Dealer
           </button>
         </div>
