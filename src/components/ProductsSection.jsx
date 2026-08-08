@@ -111,11 +111,11 @@ function ProductsSection() {
         </button>
 
         {/* Carousel / Bottles Area */}
-        <div className="w-full flex items-center justify-between relative mt-2 px-6">
+        <div className="w-full flex items-center justify-between relative mt-2 px-0 md:px-6">
           
           {/* Left Arrow */}
           <div 
-            className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-b from-[#84c142] to-[#5a8c27] flex items-center justify-center text-white cursor-pointer hover:scale-110 active:scale-95 transition-transform shadow-lg z-20 shrink-0 text-xl md:text-2xl select-none mb-36 md:mb-56 lg:mb-80"
+            className="absolute md:relative left-1 md:left-auto w-10 h-10 min-w-[40px] min-h-[40px] md:w-16 md:h-16 md:min-w-[64px] md:min-h-[64px] rounded-full bg-gradient-to-b from-[#84c142] to-[#5a8c27] flex items-center justify-center text-white cursor-pointer hover:scale-110 active:scale-95 transition-transform shadow-lg z-30 shrink-0 text-lg md:text-2xl select-none mb-36 md:mb-56 lg:mb-80"
             onClick={handlePrev}
           >
             ←
@@ -125,7 +125,7 @@ function ProductsSection() {
           <div 
             ref={scrollContainerRef}
             onScroll={handleScroll}
-            className="flex-1 flex items-end relative z-10 min-h-[350px] overflow-x-auto no-scrollbar mx-4"
+            className="w-full md:flex-1 flex items-end relative z-10 min-h-[350px] overflow-x-auto no-scrollbar mx-0 md:mx-4 px-12 md:px-0"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             <ProductBlock ref={blockRef} />
@@ -137,7 +137,7 @@ function ProductsSection() {
 
           {/* Right Arrow */}
           <div 
-            className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-b from-[#84c142] to-[#5a8c27] flex items-center justify-center text-white cursor-pointer hover:scale-110 active:scale-95 transition-transform shadow-lg z-20 shrink-0 text-xl md:text-2xl select-none mb-36 md:mb-56 lg:mb-80"
+            className="absolute md:relative right-1 md:right-auto w-10 h-10 min-w-[40px] min-h-[40px] md:w-16 md:h-16 md:min-w-[64px] md:min-h-[64px] rounded-full bg-gradient-to-b from-[#84c142] to-[#5a8c27] flex items-center justify-center text-white cursor-pointer hover:scale-110 active:scale-95 transition-transform shadow-lg z-30 shrink-0 text-lg md:text-2xl select-none mb-36 md:mb-56 lg:mb-80"
             onClick={handleNext}
           >
             →
