@@ -35,10 +35,10 @@ function HomeSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:space-x-6 z-30 w-auto px-4 sm:px-0">
-          <button className="w-max sm:w-auto bg-gradient-to-b from-[#84c142] to-[#5a8c27] text-white px-8 sm:px-[clamp(1.5rem,2.5vw,2.5rem)] py-3 sm:py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-sm sm:text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-white/30">
+          <button className="w-[180px] sm:w-auto bg-gradient-to-b from-[#84c142] to-[#5a8c27] text-white px-4 sm:px-[clamp(1.5rem,2.5vw,2.5rem)] py-3 sm:py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-sm sm:text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-white/30">
             Explore Products
           </button>
-          <button className="w-max sm:w-auto bg-white text-[#156d49] px-8 sm:px-[clamp(1.5rem,2.5vw,2.5rem)] py-3 sm:py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-sm sm:text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-transparent">
+          <button className="w-[180px] sm:w-auto bg-white text-[#156d49] px-4 sm:px-[clamp(1.5rem,2.5vw,2.5rem)] py-3 sm:py-[clamp(0.75rem,1vw,1rem)] rounded-full font-bold text-sm sm:text-[clamp(0.875rem,1.5vw,1.125rem)] shadow-xl hover:scale-105 transition-transform border border-transparent">
             Become Dealer
           </button>
         </div>
