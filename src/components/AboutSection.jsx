@@ -32,9 +32,9 @@ function AboutSection() {
             </button>
 
             {/* 100% Assured Quality Badge */}
-            <div className="absolute top-[110%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[45%] z-30 flex items-center justify-center min-w-[180px] md:min-w-[220px] lg:min-w-[260px]">
+            <div className="absolute top-[110%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[45%] z-30 flex items-center justify-center min-w-[200px] md:min-w-[220px] lg:min-w-[260px]">
               <img src="/bgbt.png" alt="Badge Background" className="absolute inset-0 w-full h-full object-contain drop-shadow-md z-0" />
-              <div className="relative z-10 text-white font-bold text-sm md:text-lg lg:text-xl px-6 py-3 md:px-10 md:py-5 whitespace-nowrap">
+              <div className="relative z-10 text-white font-bold text-sm md:text-lg lg:text-xl px-8 py-4 md:px-10 md:py-5 whitespace-nowrap">
                 100% Assured Quality
               </div>
             </div>
@@ -42,7 +42,7 @@ function AboutSection() {
 
           {/* Center Column: Leaf Collage */}
           <div className="w-full lg:w-4/12 flex justify-center items-center relative mt-20 lg:mt-0 z-20">
-            <div className="relative w-[360px] flex items-center justify-center">
+            <div className="relative w-[280px] md:w-[360px] flex items-center justify-center">
               <img src="/mid.png" alt="Leaves Collage" className="w-full h-auto object-contain drop-shadow-2xl" />
             </div>
           </div>
